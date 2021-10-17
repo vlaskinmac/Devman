@@ -6,9 +6,9 @@
 ### Installing dependencies
 supports Python 3.0 +
 
-'''python -m pip install -r requirements.txt'''
+```python -m pip install -r requirements.txt```
 or 
-'''pip install -r requirements.txt'''
+```pip install -r requirements.txt```
 
 ### Authors :shipit:
 
