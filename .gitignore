@@ -18,6 +18,5 @@ Thumbs.db
 .DS_Store
 
 # config files
-
 auth.py
 config.py
