@@ -6,12 +6,14 @@
 ### Installing dependencies
 supports Python 3.0 +
 
-```python -m pip install -r requirements.txt```
+```python -m pip install -r requirements.txt``` 
+
 or 
+
 ```pip install -r requirements.txt```
 
 ### Authors :shipit:
 
 A team of three beautiful young men
 
-![756124033766326](https://user-images.g
+![756124033766326](https://user-images.githubusercontent.com/78322994/137618595-cf3fec09-840c-4e27-8035-8face1818c8e.jpg)
