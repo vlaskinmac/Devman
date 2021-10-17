@@ -17,6 +17,6 @@ __pycache__
 Thumbs.db
 .DS_Store
 
-# config files
+# config  files
 auth.py
 config.py
