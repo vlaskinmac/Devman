@@ -10,7 +10,7 @@ def show_weather(locations, payload, headers):
             params=payload, headers=headers
         )
         response.raise_for_status()
-        logging.debug(f"{response.status_code}")
+        logging.debug(response.status_code)
         print(response.text)
 
 
@@ -21,13 +21,13 @@ def main():
         filemode='w',
         format='%(asctime)s - [%(levelnames] - %(message)s'
     )
-    HEADERS = {
+    headers = {
         'Accept-Language': 'ru-RU,ru;'
     }
     locations = ['Лондон', 'Шереметьево', 'Череповец']
-    payload = {'nTq': '', 'M': '', 'm': ''}
+    payload = {'nTq': '', 'm': ''}
     try:
-        show_weather(locations=locations, payload=payload, headers=HEADERS)
+        show_weather(locations=locations, payload=payload, headers=headers)
     except requests.exceptions.ConnectionError as exc:
         logging.error(exc)
         print(exc)
