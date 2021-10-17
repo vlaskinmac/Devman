@@ -1,4 +1,23 @@
+# Ignore IDE specific files
 .idea/
+.vscode/
+*.sw*
 *.iml
-/venv
+
+# The file containing environment variables
+**/venv
+
+# Ignore Logs
+logs.
+*.log
+
+# other
 probe.py
+__pycache__
+Thumbs.db
+.DS_Store
+
+# config files
+
+auth.py
+config.py
