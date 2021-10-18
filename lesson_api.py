@@ -7,7 +7,8 @@ def show_weather(locations, payload, headers):
     for location in locations:
         response = requests.get(
             '{}{}'.format(url, location),
-            params=payload, headers=headers
+            params=payload,
+            headers=headers
         )
         response.raise_for_status()
         logging.debug(response.status_code)
